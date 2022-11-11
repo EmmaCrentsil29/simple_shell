@@ -41,7 +41,7 @@ Example:
 $ echo "echo 'hello'" | ./hsh
 'hello'
 $
-If **hsh** is invoked with standard input connected to a terminal (determined by ==isatty==(3)), an interactive shell is opened. When executing interactively, **hsh** displays the prompt `$` when it is ready to read a command.
+If **hsh** is invoked with standard input connected to a terminal (determined by <mark>isatty<mark>(3)), an interactive shell is opened. When executing interactively, **hsh** displays the prompt `$` when it is ready to read a command.
 
 Example:
 
