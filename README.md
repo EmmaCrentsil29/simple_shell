@@ -27,7 +27,7 @@
 - To exit: press Ctrl-D or enter "exit" (with or without a status)
 - Works also in non interactive mode
 ## Compilation
-> gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
 
 Invocation
 Usage: hsh [filename]
