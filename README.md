@@ -41,7 +41,7 @@ Example:
 $ echo "echo 'hello'" | ./hsh
 'hello'
 $
-If **hsh** is invoked with standard input connected to a terminal (determined by isatty(3)), an interactive shell is opened. When executing interactively, **hsh** displays the prompt `$` when it is ready to read a command.
+If **hsh** is invoked with standard input connected to a terminal (determined by <span style="color:blue">isatty</span> (3)), an interactive shell is opened. When executing interactively, **hsh** displays the prompt `$` when it is ready to read a command.
 
 Example:
 
@@ -67,7 +67,7 @@ $ echo "echo $HOME" | ./hsh
 ## PWD
 The current working directory as set by the **cd** command.
 
-**** $ echo "echo $PWD" | ./hsh
+$ echo "echo $PWD" | ./hsh
 /home/projects/alx/simple_shell
 
 ## OLDPWD
