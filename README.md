@@ -245,6 +245,9 @@ Executing a program from another program
 Handling dynamic memory allocation in a large program
 Pair programming and team work
 Building a test suite to check our own code
+
 Authors
+
 👤 Valerie Laika
+
 👤 Emma Crentsil
