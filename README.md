@@ -38,15 +38,15 @@ To invoke **hsh**, compile all `.c` files in the repository and run the resultin
 
 Example:
 
-`$ echo "echo 'hello'" | ./hsh
+$ echo "echo 'hello'" | ./hsh
 'hello'
-$`
+$
 If **hsh** is invoked with standard input connected to a terminal (determined by isatty(3)), an interactive shell is opened. When executing interactively, **hsh** displays the prompt `$` when it is ready to read a command.
 
 Example:
 
-`$./hsh
-$`
+$./hsh
+$
 Alternatively, if command line arguments are supplied upon invocation, hsh treats the first argument as a file from which to read commands. The supplied file should contain one command per line. hsh runs each of the commands contained in the file in order before exiting.
 
 Example:
@@ -67,8 +67,9 @@ $ echo "echo $HOME" | ./hsh
 ## PWD
 The current working directory as set by the **cd** command.
 
-$ echo "echo $PWD" | ./hsh
+****$ echo "echo $PWD" | ./hsh
 /home/projects/alx/simple_shell
+
 ## OLDPWD
 The previous working directory as set by the **cd** command.
 
